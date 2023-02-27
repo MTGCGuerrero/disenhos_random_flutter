@@ -1,12 +1,11 @@
+import 'package:disenhos_flutter/src/widgets/headers.dart';
 import 'package:flutter/material.dart';
-
-
 
 class HeadersPage extends StatelessWidget {
   const HeadersPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Scaffold(body: HeaderWave());
   }
 }
