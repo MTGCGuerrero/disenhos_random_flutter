@@ -19,14 +19,14 @@ class CuadradoAnimado extends StatefulWidget {
 
 class _CuadradoAnimadoState extends State<CuadradoAnimado> with SingleTickerProviderStateMixin {
 
-  AnimationController controller;
-  Animation<double> rotacion;
+  late AnimationController controller;
+  late Animation<double> rotacion;
   
-  Animation<double> opacidad;
-  Animation<double> opacidadOut;
+  late Animation<double> opacidad;
+  late Animation<double> opacidadOut;
 
-  Animation<double> moverDerecha;
-  Animation<double> agrandar;
+  late Animation<double> moverDerecha;
+  late Animation<double> agrandar;
 
   @override
   void initState() {
