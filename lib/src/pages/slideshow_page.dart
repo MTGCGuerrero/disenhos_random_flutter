@@ -1,6 +1,5 @@
+import 'package:disenhos_flutter/src/widgets/slideshow.dart';
 import 'package:flutter/material.dart';
-
-import 'package:disenos/src/widgets/slideshow.dart';
 
 import 'package:flutter_svg/svg.dart';
 
